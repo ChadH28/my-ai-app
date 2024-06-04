@@ -9,16 +9,24 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@ai-sdk/google": "^0.0.16",
+    "ai": "^3.1.15",
+    "next": "14.2.3",
     "react": "^18",
     "react-dom": "^18",
-    "next": "14.2.3"
+    "react-markdown": "^9.0.1",
+    "react-say": "^2.1.1-master.22688e3",
+    "sass": "^1.77.2",
+    "say": "^0.16.0",
+    "text-to-speech-js": "^1.1.10",
+    "zod": "^3.23.8"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "postcss": "^8",
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
   }
 }
